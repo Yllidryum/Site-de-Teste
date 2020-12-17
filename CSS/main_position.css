@@ -1,0 +1,93 @@
+/* # na frente significa que se refere a um ID */
+
+
+/* . na frente significa que se refere a uma class */
+
+body {
+    margin: 0px;
+}
+
+#layout {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+#menu_superior {
+    height: 220px;
+    font-family: initial;
+    font-size: 20;
+    white-space: initial;
+    background-image: url("https://img.freepik.com/fotos-gratis/fundo-de-textura-de-ardosia_24972-292.jpg?size=626&ext=jpg");
+    position: fixed;
+    width: 100%;
+}
+
+#menu_superior td {
+    display: block;
+}
+
+#menu_esquerdo {
+    width: 300px;
+    background: gainsboro;
+    display: block;
+    height: 100%;
+    margin-top: 20px;
+    border-radius: 0px 10px 0px 0px;
+    border: 1px solid darkgray;
+    margin-top: 240px;
+    position: fixed;
+}
+
+#menu_esquerdo li a {
+    background: white;
+    display: block;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    line-height: 40px;
+    /* text-decoration: - Vc escolhe se ele terá ou não decoração (usei para retirar o underline) */
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+
+/* Hover - significa "sobre", ou seja, sempre que o mouse estiver em cima do link o CSS aplicará estes estilos */
+
+#menu_esquerdo li a:hover {
+    font-weight: bold;
+    background: black;
+    color: white;
+}
+
+#conteudo {
+    width: 100%;
+    padding-top: 220px;
+    padding-left: 300px;
+}
+
+#titulo_principal {
+    color: grey;
+    font-size: 100px;
+    text-shadow: 5px 3px black;
+}
+
+#menu_esquerdo ul {
+    text-align: left;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.categoria {
+    background: gainsboro;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid darkgray;
+    border-radius: 10px;
+}
+
+.categoria img {
+    width: 400px;
+}

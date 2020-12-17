@@ -1,0 +1,29 @@
+#layout {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+#menu_superior {
+    height: 220px;
+    font-family: initial;
+    font-size: 20;
+    white-space: initial;
+    background-image: url("https://www.logaster.com/blog/wp-content/uploads/2020/03/0028.png");
+    opacity: 0.8;
+}
+
+#menu_esquerdo {
+    width: 300px;
+    background: gray;
+}
+
+#conteudo {
+    background: lightgray;
+}
+
+#titulo_principal {
+    color: grey;
+    font-size: 100px;
+    text-shadow: 5px 3px black;
+}
